@@ -9,6 +9,7 @@ def find_item(options, preference):
     for key, value in options.items():
         if isinstance(value, (int, float)) and pref in key.lower() and value < best_price:
             best_key, best_price = key, float(value)
+            print("Deal Located")
 
     return (best_key, best_price) if best_key is not None else None
   
