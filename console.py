@@ -7,7 +7,7 @@ import sys
 import json
 
 # Set API key before importing app
-os.environ["YELP_API_KEY"] = "ogAi6zglpWdmtjfosGY4HdvjFABkUpfKPrrYXwd1GGVmpIhdI7O0_mdZE4ZnBkLTYK9ofTP8B1CYSR2EM9pfK2tfu72kgjo-byG_NF_6bUY-9q20MfpX-Fv0ru33aHYx"
+os.environ["YELP_API_KEY"] = "INSERTKEY"
 
 from fastapi.testclient import TestClient
 from app import app
